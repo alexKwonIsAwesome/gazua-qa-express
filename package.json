@@ -3,8 +3,11 @@
   "version": "0.1.0",
   "license": "MIT",
   "dependencies": {
+    "apollo-server-express": "^2.0.2",
     "body-parser": "^1.18.3",
-    "express": "^4.16.3"
+    "express": "^4.16.3",
+    "firebase-admin": "^6.0.0",
+    "graphql": "^0.13.2"
   },
   "scripts": {
     "start": "node dist/server.js",
@@ -14,6 +17,7 @@
   },
   "devDependencies": {
     "@types/express": "^4.16.0",
+    "core-js": "^2.5.7",
     "nodemon": "^1.18.3",
     "ts-node": "^7.0.1",
     "typescript": "^3.0.1"
